@@ -1,0 +1,17 @@
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\bin\Debug\net8.0\maga.aplication.contract.deps.json
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\bin\Debug\net8.0\maga.aplication.contract.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\bin\Debug\net8.0\maga.aplication.contract.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\bin\Debug\net8.0\maga.accessData.contracts.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\bin\Debug\net8.0\maga.Bussines.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\bin\Debug\net8.0\maga.accessData.contracts.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\bin\Debug\net8.0\maga.Bussines.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.csproj.CopyComplete
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\refint\maga.aplication.contract.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\maga.aplication.contract.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplication.contract\obj\Debug\net8.0\ref\maga.aplication.contract.dll

@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\bin\Debug\net8.0\maga.accesoData.deps.json
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\bin\Debug\net8.0\maga.accesoData.runtimeconfig.json
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\bin\Debug\net8.0\maga.accesoData.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\bin\Debug\net8.0\maga.accesoData.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\refint\maga.accesoData.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accesoData.genruntimeconfig.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\ref\maga.accesoData.dll

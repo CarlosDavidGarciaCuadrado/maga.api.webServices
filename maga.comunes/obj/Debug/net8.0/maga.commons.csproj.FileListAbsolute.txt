@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\bin\Debug\net8.0\maga.commons.deps.json
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\bin\Debug\net8.0\maga.commons.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\bin\Debug\net8.0\maga.commons.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\bin\Debug\net8.0\maga.Bussines.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\bin\Debug\net8.0\maga.Bussines.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.csproj.CopyComplete
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\refint\maga.commons.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\ref\maga.commons.dll

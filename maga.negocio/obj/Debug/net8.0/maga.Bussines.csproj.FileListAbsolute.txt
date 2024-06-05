@@ -1,0 +1,11 @@
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\bin\Debug\net8.0\maga.Bussines.deps.json
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\bin\Debug\net8.0\maga.Bussines.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\bin\Debug\net8.0\maga.Bussines.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\refint\maga.Bussines.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.pdb
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\ref\maga.Bussines.dll

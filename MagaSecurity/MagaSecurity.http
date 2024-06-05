@@ -1,0 +1,6 @@
+@MagaSecurity_HostAddress = http://localhost:5140
+
+GET {{MagaSecurity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
