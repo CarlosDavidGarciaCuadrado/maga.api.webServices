@@ -26,11 +26,12 @@ namespace magaTransversal.Registros
         {
             services.AddTransient<IFamilyService, FamilyService>();
             services.AddTransient<IUserService, UserService>();
-            services.AddTransient<IPhotoService, PhotoService>();
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddSingleton<IAccessorData, AccessorData>();
+            services.AddTransient<IAccessorData, AccessorData>();
             services.AddTransient<IAccessToken, AccessToken>();
             services.AddTransient<ILogin, Login>();
+            services.AddTransient<IMediaFileService, MediaFileService>();
+            services.AddTransient<ISendEmail, SendEmail>();
         }
 
         private static void AddRegisterRepositories(IServiceCollection services)
@@ -38,6 +39,9 @@ namespace magaTransversal.Registros
             services.AddTransient<IFamilyRepository, FamilyRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IPhotoRepository, PhotoRepository>();
+            services.AddTransient<IVideoRepository, VideoRepository>();
+            services.AddTransient<IVerifyCodeRepository, VerifyCodeRepository>();
+            services.AddTransient<IGenericParemeterRepository, GenericParameterRepository>();
         }
     }
 }

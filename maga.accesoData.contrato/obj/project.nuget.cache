@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zCzt88q5BdoExnZcDgBj+0+wtkegp0McTg4J2Lb6OB0/cGdHh2hvLILEZ8kf3M6SgtbcMc6PH5AznD0MveR85Q==",
+  "dgSpecHash": "HL0BnHnnBBT6LFIjq1frgd0KgD9ijRkBdNMq+0mXd7A9dYR+ZQQyA/HB0FsvpvUV1ytWPfBWEWdsYoe9JUiUzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\Downloads\\carlos-garcia\\carlos_david\\personal\\maga\\maga.api.webServices\\maga.accesoData.contrato\\maga.accessData.contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

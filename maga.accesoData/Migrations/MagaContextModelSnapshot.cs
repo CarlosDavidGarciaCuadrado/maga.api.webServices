@@ -70,6 +70,40 @@ namespace maga.accessData.Migrations
                     b.ToTable("TB_FAMILIA", (string)null);
                 });
 
+            modelBuilder.Entity("maga.accessData.contracts.entities.GenericParameterEntity", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("codigo");
+
+                    b.Property<string>("label")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("etiqueta");
+
+                    b.Property<long>("valueInt")
+                        .HasColumnType("bigint")
+                        .HasColumnName("valor_entero");
+
+                    b.Property<string>("valueString")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("valor_cadena");
+
+                    b.HasKey("id")
+                        .HasName("PK_GENERIC_PARAMETER");
+
+                    b.ToTable("TB_PARAMETRO_GENERAL", (string)null);
+                });
+
             modelBuilder.Entity("maga.accessData.contracts.entities.PhotoEntity", b =>
                 {
                     b.Property<decimal>("id")
@@ -226,6 +260,79 @@ namespace maga.accessData.Migrations
                     b.ToTable("TB_USUARIO_FAMILIA", (string)null);
                 });
 
+            modelBuilder.Entity("maga.accessData.contracts.entities.VerifyCodeEntity", b =>
+                {
+                    b.Property<string>("code")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("codigo");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("email");
+
+                    b.Property<DateTime>("expirationDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("fecha_expiracion");
+
+                    b.HasKey("code")
+                        .HasName("PK_VERIFY_EMAIL");
+
+                    b.ToTable("TB_VERIFICACION_CORREO", (string)null);
+                });
+
+            modelBuilder.Entity("maga.accessData.contracts.entities.VideoEntity", b =>
+                {
+                    b.Property<decimal>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("decimal(20,0)")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<decimal>("id"));
+
+                    b.Property<DateTime>("creationDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("fecha_creacion");
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("descripcion");
+
+                    b.Property<int>("indexReproduction")
+                        .HasColumnType("int")
+                        .HasColumnName("index_reproduccion");
+
+                    b.Property<string>("pathFile")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("ruta");
+
+                    b.Property<string>("title")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("titulo");
+
+                    b.Property<decimal>("userCreation")
+                        .HasColumnType("decimal(20,0)")
+                        .HasColumnName("usuario_creacion");
+
+                    b.Property<byte[]>("videoData")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)")
+                        .HasColumnName("data_video");
+
+                    b.HasKey("id")
+                        .HasName("PK_VIDEO");
+
+                    b.HasIndex("userCreation");
+
+                    b.ToTable("TB_VIDEO", (string)null);
+                });
+
             modelBuilder.Entity("maga.accessData.contracts.entities.PhotoEntity", b =>
                 {
                     b.HasOne("maga.accessData.contracts.entities.UserEntity", "User")
@@ -259,6 +366,18 @@ namespace maga.accessData.Migrations
                     b.Navigation("users");
                 });
 
+            modelBuilder.Entity("maga.accessData.contracts.entities.VideoEntity", b =>
+                {
+                    b.HasOne("maga.accessData.contracts.entities.UserEntity", "User")
+                        .WithMany("videos")
+                        .HasForeignKey("userCreation")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_USUARIO_VIDEO ");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("maga.accessData.contracts.entities.FamilyEntity", b =>
                 {
                     b.Navigation("userFamily");
@@ -269,6 +388,8 @@ namespace maga.accessData.Migrations
                     b.Navigation("photos");
 
                     b.Navigation("userFamily");
+
+                    b.Navigation("videos");
                 });
 #pragma warning restore 612, 618
         }

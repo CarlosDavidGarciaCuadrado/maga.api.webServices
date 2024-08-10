@@ -9,3 +9,5 @@ C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.web
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\refint\maga.Bussines.dll
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.pdb
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\ref\maga.Bussines.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.sourcelink.json
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.negocio\obj\Debug\net8.0\maga.Bussines.csproj.AssemblyReference.cache

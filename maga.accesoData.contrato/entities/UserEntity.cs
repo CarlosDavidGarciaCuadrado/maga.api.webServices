@@ -22,5 +22,6 @@ namespace maga.accessData.contracts.entities
         public DateTime expirationTokenDate { get; set; } = DateTime.Now;
         public virtual ICollection<UserFamilyEntity>? userFamily { get; set; }
         public virtual ICollection<PhotoEntity>? photos { get; set; }
+        public virtual ICollection<VideoEntity>? videos { get; set; }
     }
 }

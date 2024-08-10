@@ -19,3 +19,4 @@ C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.web
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accessData.pdb
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accessData.genruntimeconfig.cache
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\ref\maga.accessData.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData\obj\Debug\net8.0\maga.accessData.sourcelink.json

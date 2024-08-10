@@ -34,6 +34,22 @@ namespace maga.commons.util
 
             return response;
         }
+
+        public static bool IsUInt(string? value)
+        {
+            bool response = true;
+
+            try
+            {
+                Convert.ToUInt32(value?.ToString().Trim());
+            }
+            catch (Exception)
+            {
+                response = false;
+            }
+
+            return response;
+        }
         public static decimal GetDecimalFromString(string value, decimal defaultValue)
         {
             try
@@ -57,6 +73,22 @@ namespace maga.commons.util
                 if (IsUlong(value.Trim()))
 
                     return Convert.ToUInt64(value.Trim());
+
+                return defaultValue;
+            }
+            catch
+            {
+                return defaultValue;
+            }
+        }
+
+        public static uint GetUIntFromString(string value, uint defaultValue)
+        {
+            try
+            {
+                if (IsUInt(value.Trim()))
+
+                    return Convert.ToUInt32(value.Trim());
 
                 return defaultValue;
             }

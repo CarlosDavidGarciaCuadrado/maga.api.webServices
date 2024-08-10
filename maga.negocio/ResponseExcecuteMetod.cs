@@ -21,7 +21,7 @@ namespace maga.Bussines
         {
             state = true;
             responseType = "OK";
-            message = data != null ? "No hay registros." : messageExt;
+            message = data != null ? messageExt : "No hay registros.";
         }
 
         public void LogError(Exception error)

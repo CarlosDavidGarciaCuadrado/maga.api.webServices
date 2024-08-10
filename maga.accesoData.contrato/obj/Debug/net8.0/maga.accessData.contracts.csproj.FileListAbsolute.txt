@@ -15,3 +15,4 @@ C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.web
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData.contrato\obj\Debug\net8.0\maga.accessData.contracts.pdb
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData.contrato\obj\Debug\net8.0\maga.accessData.contracts.genruntimeconfig.cache
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData.contrato\obj\Debug\net8.0\ref\maga.accessData.contracts.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.accesoData.contrato\obj\Debug\net8.0\maga.accessData.contracts.sourcelink.json

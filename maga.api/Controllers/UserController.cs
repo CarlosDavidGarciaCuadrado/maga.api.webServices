@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace maga.api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/Maga/User/")]
     public class UserController : ControllerBase
@@ -16,31 +17,31 @@ namespace maga.api.Controllers
             _userService = userService;
         }
 
-        [Authorize]
         [HttpGet("GetById")]
         public async Task<ResponseExcecuteMetod<UserToShow?>> Get(ulong id)
         {
             return await ExecuteMetod.RunMetodAsync(_userService.Get(id), Constant.GET_SUCCESS);
         }
 
-        [HttpPost("CreateOrUpdate")]
-        public async Task<ResponseExcecuteMetod<UserToShow>> Add(UserToShow user)
+        [AllowAnonymous]
+        [HttpPost("Create")]
+        public async Task<ResponseExcecuteMetod<UserToShow?>> Add(UserToAdd user)
         {
-            ResponseExcecuteMetod<UserToShow> response = new ResponseExcecuteMetod<UserToShow>();
-            try
-            {
-                var responseUser = await _userService.Add(user);
-                response.data = responseUser.identity;
-                response.SetState(responseUser.created ? Constant.ADD_SUCCESS : Constant.UPDATE_SUCCESS);
-            }
-            catch(Exception exception)
-            {
-                response.LogError(exception);
-            }
-            return response;
+            return await ExecuteMetod.RunMetodAsync(_userService.Add(user), Constant.ADD_SUCCESS);
         }
 
-        [Authorize]
+        [HttpPost("Update")]
+        public async Task<ResponseExcecuteMetod<UserToShow?>> Update(UserToShow user)
+        {
+            return await ExecuteMetod.RunMetodAsync(_userService.Update(user), Constant.UPDATE_SUCCESS);
+        }
+
+        [HttpPost("UpdatePassword")]
+        public async Task<ResponseExcecuteMetod<UserToShow?>> UpdatePassword(RequestUpdatePassword request)
+        {
+            return await ExecuteMetod.RunMetodAsync(_userService.UpdatePassword(request), Constant.UPDATE_PASSWORD_SUCCESS);
+        }
+
         [HttpDelete("DeleteById")]
         public async Task<ResponseExcecuteMetod<UserToShow?>> Delete(ulong id)
         {

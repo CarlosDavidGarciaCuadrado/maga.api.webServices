@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maga.api", "maga.api\maga.api.csproj", "{696F3158-EB89-47B0-852C-0E0CD6B47301}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "capas", "capas", "{72B43A37-6B93-4D27-8BB4-AFB95E7D46EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "magaLayers", "magaLayers", "{72B43A37-6B93-4D27-8BB4-AFB95E7D46EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Services", "1.Services", "{34F088A5-CE3A-49CE-8ADD-8712A9A972B7}"
 EndProject
@@ -34,7 +34,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maga.commons", "maga.comune
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "magaTransversal", "MagaTransversal\magaTransversal.csproj", "{17B8D014-56DE-4BC3-9025-19A7B95022F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maga.security", "MagaSecurity\Maga.security.csproj", "{7E38E22B-04EF-4F49-B00F-A2733C50209D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maga.security", "MagaSecurity\Maga.security.csproj", "{7E38E22B-04EF-4F49-B00F-A2733C50209D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

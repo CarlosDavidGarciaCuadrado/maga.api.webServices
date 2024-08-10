@@ -21,3 +21,4 @@ C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.web
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplicacion.implementacion\obj\Debug\net8.0\refint\maga.aplication.dll
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplicacion.implementacion\obj\Debug\net8.0\maga.aplication.pdb
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplicacion.implementacion\obj\Debug\net8.0\ref\maga.aplication.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.aplicacion.implementacion\obj\Debug\net8.0\maga.aplication.sourcelink.json

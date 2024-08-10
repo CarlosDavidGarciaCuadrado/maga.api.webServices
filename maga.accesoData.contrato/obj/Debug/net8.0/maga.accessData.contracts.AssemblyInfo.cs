@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("maga.accessData.contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d96b779f895f58af55f5c4a619f01a2e7fec7e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("maga.accessData.contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("maga.accessData.contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

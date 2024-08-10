@@ -10,7 +10,6 @@ namespace maga.commons.util
     public class AccessorData: IAccessorData
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
-        private ClaimsIdentity? claimsIdentity { get; set; }
         public AccessorData(IHttpContextAccessor httpContextAccessor)
         {
             _httpContextAccessor = httpContextAccessor;
@@ -29,40 +28,14 @@ namespace maga.commons.util
                         };
         }
 
-        public void registerClaims(List<Claim> Claims)
-        {
-            var identity = new ClaimsIdentity(Claims);
-            var principal = new ClaimsPrincipal(identity);
-            _httpContextAccessor.HttpContext.User = principal;
-            claimsIdentity = _httpContextAccessor.HttpContext.User.Identity as ClaimsIdentity;
-        }
-
         public string GetUserName()
         {
-            string response = string.Empty;
-            var identity = claimsIdentity;
-            int userName = (int)enumClaimTypes.EnumUserName;
-
-            if (identity != null)
-            {
-                var claim = identity.Claims.FirstOrDefault(x => x.Type.Equals(userName.ToString()));
-                response = (claim != null) ? claim.Value : string.Empty;
-            }
-            return response;
+            return _httpContextAccessor.HttpContext?.User?.FindFirst(((int)enumClaimTypes.EnumUserName).ToString())?.Value ?? string.Empty;
         }
 
         public string GetUserId()
-        {
-            string response = string.Empty;
-            var identity = claimsIdentity;
-            int userId = (int)enumClaimTypes.EnumUserId;
-
-            if (identity != null)
-            {
-                var claim = identity.Claims.FirstOrDefault(x => x.Type.Equals(userId.ToString()));
-                response = (claim != null) ? claim.Value : string.Empty;
-            }
-            return response;
+        { 
+            return _httpContextAccessor.HttpContext?.User?.FindFirst(((int)enumClaimTypes.EnumUserId).ToString())?.Value ?? string.Empty;
         }
     }
 }

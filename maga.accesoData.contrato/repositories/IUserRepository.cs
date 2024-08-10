@@ -8,5 +8,7 @@ namespace maga.accessData.repositories
     {
         Task<IEnumerable<UserEntity>> GetAll(ulong idFamily);
         Task<UserEntity?> verifyCredentials(UserLogin userLogin);
+        Task<bool> ExistsEmail(string email);
+        Task<UserEntity?> GetUserByEmail(string email);
     }
 }

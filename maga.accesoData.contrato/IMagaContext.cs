@@ -10,6 +10,9 @@ namespace maga.accesoData.contrato
         DbSet<UserEntity> users { get; set; }
         DbSet<UserFamilyEntity> userFamilies { get; set; }
         DbSet<PhotoEntity> photos { get; set; }
+        DbSet<VideoEntity> videos { get; set; }
+        DbSet<VerifyCodeEntity> verifyCodes { get; set; }
+        DbSet<GenericParameterEntity> genericParameters { get; set; }
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken));
         EntityEntry Update(object entity);

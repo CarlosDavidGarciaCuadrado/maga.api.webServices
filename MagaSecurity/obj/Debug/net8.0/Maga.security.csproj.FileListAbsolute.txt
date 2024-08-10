@@ -98,3 +98,4 @@ C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.web
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaSecurity\obj\Debug\net8.0\Maga.security.pdb
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaSecurity\obj\Debug\net8.0\Maga.security.genruntimeconfig.cache
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaSecurity\obj\Debug\net8.0\ref\Maga.security.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaSecurity\obj\Debug\net8.0\Maga.security.sourcelink.json

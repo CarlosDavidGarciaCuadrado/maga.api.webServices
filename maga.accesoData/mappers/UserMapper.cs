@@ -5,9 +5,25 @@ namespace maga.accessData.mappers
 {
     public static class UserMapper
     {
-        public static UserEntity MapperDtoToEntity(UserToShow dto)
+        public static UserEntity MapperDtoToEntity(UserToAdd dto)
         {
             UserEntity entity = new UserEntity();
+            entity.id = dto.id;
+            entity.name = dto.name;
+            entity.lastName = dto.lastName;
+            entity.birthDate = dto.birthDate;
+            entity.familyNickName = dto.familyNickName;
+            entity.phone = dto.phone;
+            entity.isAdmin = dto.isAdmin;
+            entity.email = dto.email;
+            entity.password = dto.password;
+            entity.idFamily = dto.idFamily;
+            return entity;
+        }
+
+        public static UserEntity MapperDtoToEntity(UserEntity? entity, UserToShow dto)
+        {
+            entity = entity ?? new UserEntity();
             entity.id = dto.id;
             entity.name = dto.name;
             entity.lastName = dto.lastName;
@@ -17,7 +33,6 @@ namespace maga.accessData.mappers
             entity.state = dto.state;
             entity.isAdmin = dto.isAdmin;
             entity.email = dto.email;
-            entity.password = dto.password;
             entity.idFamily = dto.idFamily;
             return entity;
         }
@@ -54,7 +69,6 @@ namespace maga.accessData.mappers
             dto.state = entity.state;
             dto.isAdmin = entity.isAdmin;
             dto.email = entity.email;
-            dto.password = entity.password;
             dto.idFamily = entity.idFamily;
             return dto;
         }

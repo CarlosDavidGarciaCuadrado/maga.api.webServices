@@ -13,3 +13,4 @@ C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.web
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\refint\maga.commons.dll
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.pdb
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\ref\maga.commons.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\maga.comunes\obj\Debug\net8.0\maga.commons.sourcelink.json

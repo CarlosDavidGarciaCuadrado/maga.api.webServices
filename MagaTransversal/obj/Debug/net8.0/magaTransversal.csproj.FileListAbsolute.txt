@@ -23,3 +23,4 @@ C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.web
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaTransversal\obj\Debug\net8.0\refint\magaTransversal.dll
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaTransversal\obj\Debug\net8.0\magaTransversal.pdb
 C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaTransversal\obj\Debug\net8.0\ref\magaTransversal.dll
+C:\Users\USUARIO\Downloads\carlos-garcia\carlos_david\personal\maga\maga.api.webServices\MagaTransversal\obj\Debug\net8.0\magaTransversal.sourcelink.json

@@ -21,7 +21,7 @@ namespace maga.accessData.repositories
             }
             catch (Exception exception)
             {
-                GenericExceptionHelper.SqlException(Constant.UPDATE_ERROR, exception);
+                throw GenericExceptionHelper.SqlException(Constant.ADD_ERROR, exception);
             }
             return user;
         }
@@ -38,7 +38,7 @@ namespace maga.accessData.repositories
                 }
                 catch (Exception exception) 
                 {
-                    GenericExceptionHelper.SqlException(Constant.DELETE_ERROR, exception);
+                    throw GenericExceptionHelper.SqlException(Constant.DELETE_ERROR, exception);
                 }
             }
             return user;
@@ -47,6 +47,11 @@ namespace maga.accessData.repositories
         public async Task<bool> Exists(ulong id)
         {
             return await Get(id) != null;
+        }
+
+        public async Task<bool> ExistsEmail(string email)
+        {
+            return await GetUserByEmail(email) != null;
         }
 
         public async Task<UserEntity?> Get(ulong id)
@@ -61,19 +66,24 @@ namespace maga.accessData.repositories
         {
             try 
             {
-                _magaContext.users.Update(user);
+                _magaContext.Update(user);
                 await _magaContext.SaveChangesAsync();
             }
             catch(Exception exception) 
             {
-                GenericExceptionHelper.SqlException(Constant.UPDATE_ERROR, exception);
+                throw GenericExceptionHelper.SqlException(Constant.UPDATE_ERROR, exception);
             }
             return user;
         }
 
         public Task<UserEntity?> verifyCredentials(UserLogin userLogin)
         {
-            return Task.FromResult(_magaContext.users.FirstOrDefault(user => user.email == userLogin.userName && user.password == userLogin.password && user.state == 1));
+            return Task.FromResult(_magaContext.users.FirstOrDefault(user => user.email == userLogin.userName && user.state == 1));
+        }
+
+        public Task<UserEntity?> GetUserByEmail(string email)
+        {
+            return Task.FromResult(_magaContext.users.FirstOrDefault(user => user.email == email));
         }
     }
 }

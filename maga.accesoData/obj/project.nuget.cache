@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8OFnzaWq7mHMiXNcPZdTxkSi/vgiwtq6Z5WsmP7FiIWELVEH1T1lMkZ0F6WHKacAcor738ozpYTWPAXrz8Kn4g==",
+  "dgSpecHash": "A65WeD55xla+DBDuGTtCo9fHR2/hZjPHsmVtUG3ZtvyyEs2VoPRki/2Jp6ncgHufCL4YpDSlYnFA+WX5q0s+mA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\Downloads\\carlos-garcia\\carlos_david\\personal\\maga\\maga.api.webServices\\maga.accesoData\\maga.accessData.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

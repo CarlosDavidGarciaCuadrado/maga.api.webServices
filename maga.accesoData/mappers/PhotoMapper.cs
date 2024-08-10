@@ -3,7 +3,7 @@ using maga.Bussines;
 
 namespace maga.accessData.mappers
 {
-    public class PhotoMapper
+    public static class PhotoMapper
     {
         public static PhotoEntity MapperDtoToEntity(PhotoDto dto)
         {
